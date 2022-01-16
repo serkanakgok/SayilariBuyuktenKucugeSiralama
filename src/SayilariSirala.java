@@ -19,23 +19,23 @@ public class SayilariSirala {
         boolean yz = y > z;
         boolean yx = y > x;
         boolean zx = z > x;
-        if (xy&&xz){
-            if (yz){
-                System.out.println(x+">"+y+">"+z);
-            }else{
-                System.out.println(x+">"+z+">"+y);
+        if (xy && xz) {
+            if (yz) {
+                System.out.println(x + ">" + y + ">" + z);
+            } else {
+                System.out.println(x + ">" + z + ">" + y);
             }
-        }else if (yz&&yx){
-            if (zx){
-                System.out.println(y+">"+z+">"+x);
-            }else{
-                System.out.println(y+">"+x+">"+z);
+        } else if (yz && yx) {
+            if (zx) {
+                System.out.println(y + ">" + z + ">" + x);
+            } else {
+                System.out.println(y + ">" + x + ">" + z);
             }
-        }else {
-            if (xy){
-                System.out.println(z+">"+x+">"+y);
-            }else {
-                System.out.println(z+">"+y+">"+x);
+        } else {
+            if (xy) {
+                System.out.println(z + ">" + x + ">" + y);
+            } else {
+                System.out.println(z + ">" + y + ">" + x);
             }
         }
     }
